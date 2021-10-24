@@ -1,0 +1,2 @@
+# Python-mini-projects
+Mini projects, so you don't lose concepts and get bored
