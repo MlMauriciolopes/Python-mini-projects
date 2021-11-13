@@ -45,3 +45,5 @@ entry = Text(canvas,wrap = WORD, bg = "#F9DDA4", font = ("poppins", 15))
 entry.pack(padx = 10, pady = 5, expand = TRUE, fill = BOTH)
 
 canvas.mainloop()
+
+#Credits: Coding With Evan - Youtube
