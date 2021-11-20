@@ -48,16 +48,16 @@ sc.write("score: 0 High score: 0", align = "center", font = ("ds-digital", 24, "
 # functions
 def go_up():
     if head.direction != "down":
-      head.direction = "up"
+        head.direction = "up"
 def go_down():
-   if head.direction != "up":
+    if head.direction != "up":
         head.direction = "down"
 def go_left():
-  if head.direction != "right":
-      head.direction = "left"
+    if head.direction != "right":
+        head.direction = "left"
 def go_right():
-  if head.direction != "left":
-      head.direction = "right"
+    if head.direction != "left":
+        head.direction = "right"
 def move():
     if head.direction == "up":
         y = head.ycor()
@@ -67,10 +67,10 @@ def move():
         head.sety(y-20)
     if head.direction == "left":
         x = head.xcor()
-        head.sety(x-20)
+        head.setx(x-20)
     if head.direction == "right":
         x = head.xcor()
-        head.sety(x+20)
+        head.setx(x+20)
 
 # keyboard bindings
 wn.listen()
@@ -158,8 +158,8 @@ while True:
             #update the score
             sc.clear()
             sc.write("score: {} High score: {}".format(score, high_score), align = "center", font = ("ds-digital", 24, "normal"))
-        time.sleep(delay)
+    time.sleep(delay)
 wn.mainloop()
 
-
+# Credits: Coding with Evan - Youtube
 
