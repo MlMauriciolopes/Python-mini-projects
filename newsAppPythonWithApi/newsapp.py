@@ -39,5 +39,6 @@ getNews()
 
 canvas.mainloop()
 
+# Credits: coding with Evan - Youtube
 
 # f6029f3a2c7c4fe28574fa3cb1e3fb57
