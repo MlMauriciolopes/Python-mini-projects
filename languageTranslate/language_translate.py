@@ -43,7 +43,11 @@ auto_detect.place(x=30, y=70)
 auto_detect.current(0)
 
 1 = StringVar()
-choose_langauge['values'] = ()
+choose_langauge['values'] = (
+    'Afrikaans', 'Albanian', 'Arabic', 'Armenian', 'Azerbaijani',
+    'Basque', 'Belarusian', 'Bengali', 'Bosnian', 'Bulgarian', 'Catalan', 
+    'Cebuano', 'Chichewa'
+)
 
 choose_langauge.place(x=290, y=70)
 choose_langauge.current(0)
@@ -64,4 +68,22 @@ button.place(x=280, y=280)
 
 root.mainloop()
 
+t1 = Text(root, width=30, height=10, borderwidth=5, relief=RIDGE)
+t1.place(x=10, y=100)
+
+t2 = Text(root, width=30, height=10, borderwidth=5, relief=RIDGE)
+t2.place(x=260, y=100)
+
+button = Button(root, text="Translate", width=10, font=('verdana', 10, 'bold'), cursor="hand2",
+                command=translate, bg= '#323233' , fg='fff')
+button.place(x=150, y=280)
+
+clear = Button(root, text="Clear", width=10, font=('verdana', 10, 'bold'), cursor="hand2",
+                command=clear, bg= '#323233' , fg='fff')
+clear.place(x=280, y=280)
+
+root.mainloop()
+
+
+# Credits: _python.py_ - Instagram
 
