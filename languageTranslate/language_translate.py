@@ -10,7 +10,7 @@ root.title('langauge Translator')
 root.geometry('530x330')
 root.resizable(False, False)
 root.config(bg='#6495ED')
-root.iconbitmap('translate.ico') # this is for set app icon
+#root.iconbitmap('translate.ico') # this is for set app icon
 
 # function for translate the language and set in 12 box
 def translate():
@@ -42,7 +42,7 @@ auto_detect['values'] = ('Auto Detect', )
 auto_detect.place(x=30, y=70)
 auto_detect.current(0)
 
-1 = StringVar()
+t1 = StringVar()
 choose_langauge['values'] = (
     'Afrikaans', 'Albanian', 'Arabic', 'Armenian', 'Azerbaijani',
     'Basque', 'Belarusian', 'Bengali', 'Bosnian', 'Bulgarian', 'Catalan', 
